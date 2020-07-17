@@ -1,8 +1,10 @@
 #include "drip.h"
 #include <math.h>
+#include <cstdlib>
 #include "dsp.h"
 
 using namespace daisysp;
+using namespace std;
 
 #define WUTR_SOUND_DECAY 0.95f
 #define WUTR_SYSTEM_DECAY 0.996f
